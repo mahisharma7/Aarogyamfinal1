@@ -25,7 +25,7 @@
   else out.println("<link rel=stylesheet href='./CSS/cyber.css'><body bgcolor=gray><Center><h1><font face=tahoma color=ivory>Failed to Add the Item to the Inventory.<BR><BR>Please Enter Proper Data .</h1><br><br><center><a href=\"javascript:history.back()\">Continue</a>&nbsp;&nbsp;<a href=\"javascript:parent.close()\">Skip From This Page</a>");
   } catch(Exception e) {
 	  String msgs=e.getMessage().toString().toLowerCase();
-    if(msgs.indexOf("unique")!=-1) out.println("<link rel=stylesheet href='./CSS/cyber.css'><body bgcolor=gray><center><p><font face=tahoma color=maroon>Transaction Failed While Adding Ur Item to Inventory.Due To Duplication.<BR>Item Already Exist.Please Choose Another Item</p><br><br><center><a href=\"javascript:history.back()\">Continue</a>&nbsp;&nbsp;<a href=\"javascript:parent.close()\">Skip From This Page</a>");    
+    if(msgs.indexOf("unique")!=-1) out.println("<link rel=stylesheet href='./CSS/cyber.css'><body bgcolor=orange><center><p><font face=tahoma color=maroon>Transaction Failed While Adding Ur Item to Inventory.Due To Duplication.<BR>Item Already Exist.Please Choose Another Item</p><br><br><center><a href=\"javascript:history.back()\">Continue</a>&nbsp;&nbsp;<a href=\"javascript:parent.close()\">Skip From This Page</a>");    
     else out.println("<link rel=stylesheet href='./CSS/cyber.css'><body bgcolor=gray><center><h1><font face=tahoma color=ivory>Transaction Failed While Adding Ur Item to Inventory.Due To Error:<BR>"+e+"</h1><br><br><center><a href=\"javascript:history.back()\">Continue</a>&nbsp;&nbsp;<a href=\"javascript:parent.close()\">Skip From This Page</a>");
   }
   %>
@@ -34,6 +34,6 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="expires" content="0">
 <link class="catg" href="./CSS/cyber.css" rel="stylesheet">
-<title>Online Medical Booking Store</title>
+<title> Arogyam Aurvedic medicines Booking Store</title>
 
 

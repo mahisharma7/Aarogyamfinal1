@@ -7,7 +7,7 @@ import java.sql.Statement;
 public class DBConnect {
 	public static Connection getMySqlConnection() throws Exception {
 		Class.forName("com.mysql.jdbc.Driver");
-		Connection con = DriverManager.getConnection("jdbc:mysql://localhost/medicalstore", "JavaDB", "Mohnishpali19@");
+		Connection con = DriverManager.getConnection("jdbc:mysql://localhost/medicalstore", "root", "Maheshsharma@014");
 		return con;
 	}
 

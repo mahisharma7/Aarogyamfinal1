@@ -12,13 +12,13 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="expires" content="0">
 <link href="./CSS/cyber.css" rel="stylesheet">
-<title>Online Medical Booking Store</title>
+<title>Arogyam Medical Booking Store</title>
 </head>
 <body>
-	<table width=780 cellspacing=0 cellpadding=0 border=0 align=center>
+	<table width=580 cellspacing=0 cellpadding=0 border=0 align=center>
 		<tr>
 			<td><h1>
-					<font color=yellow><center>Online Medical Booking
+					<font color=black><center> Arogyam Aurvedic Medicine Booking
 							Store</center></font>
 				</h1></td>
 		</tr>
@@ -28,6 +28,7 @@
 	<TABLE ALIGN=CENTER BORDER=0 oncontextmenu="return false" cellspacing=0
 		cellpadding=0>
 		<form action="search_products.jsp">
+	
 			<TR>
 				<TD>Search Products To Buy&nbsp;:&nbsp;<input name=search>&nbsp;&nbsp;in
 					&nbsp;&nbsp;<select name=category>
@@ -38,15 +39,7 @@ for(int i=0;i<v.size();i++)
 <option><%=v.get(i)%></option>
 
 <% --%> } %>
-						<!--
-<option value='appliances'>Appliances
-<option value='buildings'>Buildings
-<option value='clothing'>Clothing
-<option value='electronics'>Electronics
-<option value='hardware'>Hardware
-<option value='food'>Food
-<option value='books'>Books
--->
+
 				</select>&nbsp;&nbsp;
 					<button type=submit>Proceed</button>
 			</TR>
@@ -63,7 +56,7 @@ for(int i=0;i<v.size();i++)
 				<tr>
 					<Td align=right>User Email:</td>
 					<Td><input name=userid>
-					<td rowspan=4><img src="addcart.jpg" width=300 height=130
+					<td rowspan=4><img src="images.jpg" width=200 height=130
 						border=0>
 				<tr>
 					<Td align=right>Password:</td>

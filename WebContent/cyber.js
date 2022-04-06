@@ -11,7 +11,7 @@
  } 
  var bt=document.getElementsByTagName('BUTTON'); 
  for(btn=0;btn<bt.length;btn++) {
- bt[btn].style.cssText="cursor:pointer;font-weight:bold;height:18px;background:lightslategray;color:aliceblue;width:120px;border:1px solid orange";
+ bt[btn].style.cssText="cursor:pointer;font-weight:bold;height:18px;background:lightslategray;color:aliceblue;width:1200px;border:1px solid orange";
  bt[btn].onmouseover=function() { this.style["backgroundColor"]='steelblue';this.blur()}
  bt[btn].onmouseout=function() { this.style["backgroundColor"]='lightslategray';}
  } 
