@@ -16,7 +16,7 @@ P,TD,TH,FORM,BODY {
   }
 P {padding:10px;border:1 solid rgb(128, 0,rgb(128, 64, 0));color:red}
 BODY {
-      background:url(../);
+      background:url("cyber.jpg");
       background-attachment:fixed;
       background-repeat:repeat-y;
       margin:0px;
