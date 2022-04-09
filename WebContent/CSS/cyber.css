@@ -2,7 +2,7 @@ h3 {
         font-family:ms sans serif;
 	width:400px;
 	height:0px;
-	color:rgb(255, 255, 128);
+	color:rgb(64, 0, 128);
 	filter:glow(strength=10,color=rgb(0, 255, 64));
 	text-align:center
 	}
@@ -75,8 +75,9 @@ A:hover {
        padding:4px;
        border:1px solid gray;
        text-align:center;
-       background:maroon;
+       background:rgb(255, 0, 128);
        filter:alpha(style=3,startX=0,startY=100);
+       background-image:url("1611123969.jpg");
        
     }
 .catg:hover {

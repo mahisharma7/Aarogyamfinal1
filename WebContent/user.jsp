@@ -1,7 +1,7 @@
 <%if(session.getValue("login")==null) response.sendRedirect("cyber.jsp?invalidsession");%>
 <html>
 <head>
-<link class="catg" href="./CSS/cyber.css" rel="stylesheet">
+<link class="catg" href="user.css" rel="stylesheet">
 <title>Online Medical Booking Store</title>
 </head>
 <body>

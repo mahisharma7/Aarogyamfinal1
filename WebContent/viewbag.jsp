@@ -6,7 +6,7 @@
 %>
 <html>
 <head>
-<link class="catg" href="./CSS/cyber.css" rel="stylesheet">
+<link class="catg" href="user.css" rel="stylesheet">
 <title>Online Medical Booking Store</title>
 <script language="javascript">
 	function Validation(viewbag) {

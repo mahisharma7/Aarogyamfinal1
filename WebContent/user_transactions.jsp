@@ -24,7 +24,9 @@ Vector v=cat.categoryDetails();
 	<TR>
 		<TD>
 		<A class="catg" href="addcart.jsp">Add To Cart</A>
+		
 		</TD>
+		<br> <br>
 		<TD>
 		<A class="catg" href="viewbag.jsp">View Cart</A>
 		</TD>
