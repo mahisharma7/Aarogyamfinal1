@@ -58,7 +58,7 @@
 			ResultSet rs;
 
 			String query = "select * from product where CAT_NAME='" + catg + "'";
-			out.println("--------" + query);
+			//out.println("--------" + query);
 			String added = "select * from cart";
 			st = con.createStatement();
 			rs = st.executeQuery(added);
@@ -74,14 +74,14 @@
 			else
 				out.println(
 						"<link href='./CSS/cyber.css' rel='stylesheet'><table width=150 align=left style='border:1px solid gray'><Tr><td align=center>No Items in the cart</td></tr></table>");
-			out.println("-zxcvzx--" + query);
+			//out.println("-zxcvzx--" + query);
 			rs = st.executeQuery(query);
 			int count = 0;
 			head += "<table cellspacing=1 cellpadding=2 border=0 align=center width=600><form method=post action='addtocart.jsp'>";
 			head += "<tr><Td>Sno</td><td>Category</td><td>Item Name</td><td>Description</td><td>Price /Unitcost</td><TD>Quantity</td></tr>";
 			while (rs.next()) {
 				count++;
-				out.println(count + "-cvczxcvzx--" + query);
+				//out.println(count + "-cvczxcvzx--" + query);
 				String iname = rs.getString("PRODUCTNAME");
 				String desc = rs.getString("PRODUCT_DESC");
 				float cost = rs.getFloat("PROD_PRICE");

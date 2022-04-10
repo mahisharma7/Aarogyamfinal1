@@ -8,7 +8,7 @@
 %>
 <script>
 	function getMessage(val) {
-		styles = "<link href='./CSS/cyber.css' rel='stylesheet'><title>Message</title>"
+		styles = "<link href='user.css' rel='stylesheet'><title>Message</title>"
 		nwin = open("", "",
 				"scrollbars=yes,width=500 height=300,left=120,top=200");
 		nwin.document.write(styles + "<p>"
@@ -64,7 +64,7 @@
 					out.println(head + buff + "</table>");
 				else
 					out.println(
-							"<link href='./CSS/cyber.css' rel='stylesheet'><center><p>No Messages Found.Your Inbox Terminal is Empty</p></center>");
+							"<link href='user.css' rel='stylesheet'><center><p>No Messages Found.Your Inbox Terminal is Empty</p></center>");
 			} catch (Exception e) {
 				out.println("No Items Found" + e);
 			}

@@ -7,6 +7,7 @@
 <html>
 <head>
 <link class="catg" href="user.css" rel="stylesheet">
+
 <title>Online Medical Booking Store</title>
 <script language="javascript">
 	function Validation(viewbag) {
