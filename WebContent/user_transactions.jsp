@@ -8,6 +8,7 @@ Vector v=cat.categoryDetails();
 
 <html>
 <script src="hcfl_user.js"></script><BR>
+<link class="catg" href="user.css" rel="stylesheet">
 <body>
 <table width=780 cellspacing=0 cellpadding=0 border=0 align=center> 
 <tr><td><table width="780" cellspacing="0" cellpadding="0" border="0" align="center">
@@ -20,13 +21,17 @@ Vector v=cat.categoryDetails();
   </tr>
 </table></td>
 </tr></table>
-<table  BORDER=0 align=center oncontextmenu="return false" cellspacing=0 cellpadding=0>
-	<TR>
+
+  
+		
+</div>
+<BR>
+<form action="search_products.jsp">
+<TABLE ALIGN=CENTER BORDER=0 oncontextmenu="return false" cellspacing=0 cellpadding=0>
+<TR>
 		<TD>
 		<A class="catg" href="addcart.jsp">Add To Cart</A>
-		
 		</TD>
-	
 		<TD>
 		<A class="catg" href="viewbag.jsp">View Cart</A>
 		</TD>
@@ -37,10 +42,6 @@ Vector v=cat.categoryDetails();
 		<A class="catg" href="user_message.jsp">Message</A>
 		</TD>
 	</TR>
-</table>
-<BR>
-<form action="search_products.jsp">
-<TABLE ALIGN=CENTER BORDER=0 oncontextmenu="return false" cellspacing=0 cellpadding=0>
 <TR><TD>Search Products To Buy&nbsp;:&nbsp;
 <input name=search>&nbsp;&nbsp;in
 &nbsp;&nbsp;

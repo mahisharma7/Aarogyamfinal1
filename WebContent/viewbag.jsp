@@ -8,6 +8,7 @@
 <head>
 <link class="catg" href="user.css" rel="stylesheet">
 
+
 <title>Online Medical Booking Store</title>
 <script language="javascript">
 	function Validation(viewbag) {
@@ -101,9 +102,9 @@
 								+ grand + "'>" + grand + "</th></tr></table>");
 			} else
 				out.println(
-						"<link href='./CSS/cyber.css' rel='stylesheet'><center><p>No Items Found.Cart is Empty</p></center>");
+						"<link href='user.css' rel='stylesheet'><center><p>No Items Found.Cart is Empty</p></center>");
 		} catch (Exception e) {
-			out.println("<link href='./CSS/cyber.css' rel='stylesheet'><center><p>No Items Found</p>");
+			out.println("<link href='user.css' rel='stylesheet'><center><p>No Items Found</p>");
 		}
 	%>
 

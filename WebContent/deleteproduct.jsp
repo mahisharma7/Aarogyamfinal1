@@ -17,7 +17,7 @@
 <meta http-equiv="page-enter" content="blendTrans(duration=1)">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="expires" content="0">
-<link class="catg" href="./CSS/cyber.css" rel="stylesheet">
+<link class="catg" href="user.css" rel="stylesheet">
 <title>Online Medical Booking Store</title>
 </head>
 <body><jsp:include page="admin_transactions.jsp" />

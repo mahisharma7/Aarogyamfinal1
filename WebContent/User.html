@@ -1,0 +1,92 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!--author:starttemplate-->
+<!--reference site : starttemplate.com-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords"
+          content="unique login form,leamug login form,boostrap login form,responsive login form,free css html login form,download login form">
+    <meta name="author" content="leamug">
+    <title>Aarogyam Login Form</title>
+    <link href="userss.css" rel="stylesheet" id="style">
+    <!-- Bootstrap core Library -->
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
+    <!-- Font Awesome-->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Page Content -->
+<br> <br>
+
+
+<br> <br>
+
+<h1><font color=  #0077ee><center>
+<strong> <b>Aarogyam Aurvedic medicines  Store</b></b></strong>
+</center></font></h1>
+<br><br>
+<br>
+ <div class="topnav">
+  <a class="active" href="#home">Aarogyam</a>
+   <a class="catg" href="viewbag.jsp">Add To Cart</a>
+  <a class="catg" href="viewbag.jsp">View Cart</a>
+  <a class="catg" href="user_inbox.jsp">Inbox</a>
+  <a class="catg" href="user_message.jsp">Massage</a>
+  	<A class="catg" href="addcart.jsp">Add To Cart</A>
+		
+</div>
+
+<body>
+
+
+    
+</body>
+<table  BORDER=0 align=center oncontextmenu="return false" cellspacing=0 cellpadding=0>
+	<TR>
+		<TD>
+		<A class="catg" href="addcart.jsp">Add To Cart</A>
+		</TD>
+		<TD>
+		<A class="catg" href="viewbag.jsp">View Cart</A>
+		</TD>
+		<TD>
+        <A class="catg" href="user_inbox.jsp">Inbox</A>
+		</TD>
+		<TD>
+		<A class="catg" href="user_message.jsp">Message</A>
+		</TD>
+	</TR>
+</table>
+<BR>
+<form action="search_products.jsp">
+<TABLE ALIGN=CENTER BORDER=0 oncontextmenu="return false" cellspacing=0 cellpadding=0>
+<TR><TD>Search Products To Buy&nbsp;:&nbsp;
+<input name=search>&nbsp;&nbsp;in
+&nbsp;&nbsp;
+<select name=category>
+<option>--</option>
+<%
+for(int i=0;i<v.size();i++)
+{
+%>
+<option><%=v.get(i)%></option>
+
+<%
+}	
+%>
+</select>&nbsp;&nbsp;<input  type=submit value="Proceed"></button>
+
+</td></TR>
+</TABLE></form></form>
+</html>

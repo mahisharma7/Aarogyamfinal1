@@ -1,5 +1,5 @@
 <%@page import="com.met.dao.DBConnect"%>
-<link href="./CSS/cyber.css" rel="stylesheet">
+<link href="user.css" rel="stylesheet">
 <%@ page import="java.sql.*"%>
 <%
 	if (session.getValue("login") == null)

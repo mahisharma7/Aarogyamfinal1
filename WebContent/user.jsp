@@ -4,17 +4,11 @@
 <link class="catg" href="user.css" rel="stylesheet">
 <title>Aarogyam Aurvedic Medidcine  Store</title>
 <BR>
- <div class="topnav">
-  <a class="active" href="#home">Aarogyam</a>
-   <a href="viewbag.jsp">Add To Cart</a>
-  <a href="viewbag.jsp">View Cart</a>
-  <a href="user_inbox.jsp">Inbox</a>
-  <a href="user_message.jsp">Massage</a>
-</div>
+
 </head>
 <body>
 <jsp:include page="user_transactions.jsp" />
-<TABLE  cellSpacing=3 cellPadding=3 width=600 align="left" border=0 >
+<TABLE  cellSpacing=3 cellPadding=3 width=400 align="left" border=0 >
 
 <TBODY>
 <TR>

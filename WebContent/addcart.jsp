@@ -105,7 +105,7 @@
 								+ catg + "</font> Category</td></tr></table>");
 		} catch (Exception e) {
 			out.println("-----" + e);
-			out.println("<p>No Items Found " + e + "</p>");
+			//out.println("<p>No Items Found " + e + "</p>");
 		}
 	%>
 </body>

@@ -1,9 +1,9 @@
 <table width=780 cellspacing=0 cellpadding=0 border=0 align=center> 
 <tr><td><table width="780" cellspacing="0" cellpadding="0" border="0" align="center">
   <tr>
-    <td><h1><font color="yellow">
+    <td><h1><font color="Black">
       <center>
-       Online Medical Booking Store
+       Aarogyam Aurvedic Medicine  Store
       </center>
     </font></h1></td>
   </tr>

@@ -31,12 +31,12 @@
 			response.sendRedirect((admin != null) ? "admin.jsp" : "user.jsp");
 		} else {
 			out.println(
-					"<link rel=stylesheet href='./CSS/cyber.css'><body bgcolor=yellow><p><font face=tahoma color=maroon><BR>Please Check The User Name and Password u supplied is Correct or Not</h1><br><br><center><a href=\"javascript:history.back()\">Continue</a>&nbsp;&nbsp;<a href=\"javascript:parent.close()\">Skip From This Page</a>");
+					"<link rel=stylesheet href='user.css'><body bgcolor=yellow><p><font face=tahoma color=maroon><BR>Please Check The User Name and Password u supplied is Correct or Not</h1><br><br><center><a href=\"javascript:history.back()\">Continue</a>&nbsp;&nbsp;<a href=\"javascript:parent.close()\">Skip From This Page</a>");
 		}
 	} catch (Exception e) {
 		out.println(e);
 		out.println(
-				"<link rel=stylesheet href='./CSS/cyber.css'><body bgcolor=ivory><h1>Error Occured! While Processing Ur Transaction</font></h1><br><br><center><a href=\"javascript:history.back()\">Continue</a>&nbsp;&nbsp;<a href=\"javascript:parent.close()\">Skip From This Page</a>");
+				"<link rel=stylesheet href='user.css'><body bgcolor=ivory><h1>Error Occured! While Processing Ur Transaction</font></h1><br><br><center><a href=\"javascript:history.back()\">Continue</a>&nbsp;&nbsp;<a href=\"javascript:parent.close()\">Skip From This Page</a>");
 
 	}
 %>

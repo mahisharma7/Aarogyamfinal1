@@ -17,17 +17,17 @@ body {
     font-size:18px!important;
 }
 .form-login {
-    background-color: rgb(16, 10, 4);
-    padding-top: 10px;
+
+    padding-top: 15px;
     padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 15px;
     border-color:#d2d2d2;
     border-width: 5px;
     color:white;
     box-shadow:0 1px 0 #cfcfcf;
-      opacity: 0.8;
+     
 }
 .form-control{
     background:transparent!important;

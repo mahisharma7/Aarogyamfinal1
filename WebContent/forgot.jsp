@@ -10,7 +10,7 @@ Vector v=cat.categoryDetails();
 <meta http-equiv="page-enter" content="blendTrans(duration=1)">
 <meta http-equiv="Pragma" content="no-cahe">
 <meta http-equiv="expires" content="0">
-<link href="./CSS/cyber.css" rel="stylesheet">
+<link href="user.css" rel="stylesheet">
 <title>Online Medical Booking Store</title>
 </head><body>
 <table width=780 cellspacing=0 cellpadding=0 border=0 align=center> 
