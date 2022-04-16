@@ -1,4 +1,4 @@
-<%@page import="com.met.dao.DBConnect"%>
+  <%@page import="com.met.dao.DBConnect"%>
 <%@ page import="java.sql.*"%>
 
 <%@ page import="java.util.*"%>
@@ -27,7 +27,7 @@
 	<table align=center cellspacing=0 cellpadding=0>
 		<form name=sessionform action="setsession.jsp" method=post>
 			<Tr>
-				<Td>Category:</td>
+				<Td><h1>Category:</h1></td>
 				<TD><select name=table>
 						<%
 							for (int i = 0; i < v.size(); i++) {
@@ -39,7 +39,7 @@
 						%>
 
 				</select>&nbsp;&nbsp;
-					<button type=submit>Get Products</button></td>
+					<button type=submit><h1>Get Products</h1></button></td>
 			</tr>
 		</form>
 	</table>
@@ -62,7 +62,7 @@
 			String added = "select * from cart";
 			st = con.createStatement();
 			rs = st.executeQuery(added);
-			list += "<table cellspacing=1 cellpadding=2 border=0 align=left style='border:1px solid gray' width=150><caption><font face=tahoma color=gray size=1>Items Added in Cart</font></caption><form method=post action='deletecart.jsp'>";
+			list += "<table cellspacing=1 cellpadding=2 border=0 align=left style='border:10px solid gray' width=150><caption><font face=tahoma color=gray size=10>Items Added in Cart</font></caption><form method=post action='deletecart.jsp'>";
 			while (rs.next()) {
 				String iname = rs.getString("CATEGORY");
 				buff2 += "<Tr><td><input class=check type=checkbox name=item value='" + iname + "'>" + iname
@@ -73,7 +73,7 @@
 						+ "<Tr><td colspan=5 align=center><BR><button type=submit>Delete</button></td></tr></form></table>");
 			else
 				out.println(
-						"<link href='./CSS/cyber.css' rel='stylesheet'><table width=150 align=left style='border:1px solid gray'><Tr><td align=center>No Items in the cart</td></tr></table>");
+						"<link href='./CSS/cyber.css' rel='stylesheet'><table width=150 align=left style='border:1px solid gray'><Tr><td align=center><h1>No Items in the cart</h1></td></tr></table>");
 			//out.println("-zxcvzx--" + query);
 			rs = st.executeQuery(query);
 			int count = 0;

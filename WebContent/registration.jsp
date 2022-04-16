@@ -37,12 +37,12 @@
 					+ "')");
 	
 	if (i > 0) {
-		out.println("<link rel=stylesheet href='./CSS/cyber.css'><body bgcolor=pink><h1>Your Account is Created Successfully</h1><br><br><center><a href=\"index.html\" target=\"_parent\">Home</a>");
+		out.println("<link rel=stylesheet href='./CSS/cyber.css'><body bgcolor=pink><h1>Your Account is Created Successfully</h1><br><br><center><a href=\"login.html\" target=\"_parent\">Home</a>");
 	}
-		else out.println("<link rel=stylesheet href='./CSS/cyber.css'><body bgcolor=pink><h1>Your Action Failed</h1><br><br><center><a href=\"javascript:history.back()\">Go Back</a>&nbsp;&nbsp;<a href=\"index.html\" target=\"_parent\">Home</a>");
+		else out.println("<link rel=stylesheet href='./CSS/cyber.css'><body bgcolor=pink><h1>Your Action Failed</h1><br><br><center><a href=\"javascript:history.back()\">Go Back</a>&nbsp;&nbsp;<a href=\"login.html\" target=\"_parent\">Home</a>");
 	} catch(Exception e)	{
    		String msgs=" ";
 		/* msgs=(e.getMessage().toLowerCase().indexOf("unique")!=-1)?"The User Name U Specified is Already Existed.<BR><BR>Please Choose Another Name":"UnKnown Exception Occured"; */
-		out.println("<link rel=stylesheet href='./CSS/cyber.css'><body bgcolor=ivory><h1>Error Occured! While Processing Ur Action</font></h1><P>"+msgs+"</p><br><br><center><a href=\"javascript:history.back()\">Continue</a>&nbsp;&nbsp;<a href=\"index.html\" target=\"_parent\">Home</a>");
+		out.println("<link rel=stylesheet href='./CSS/cyber.css'><body bgcolor=ivory><h1>Error Occured! While Processing Ur Action</font></h1><P>"+msgs+"</p><br><br><center><a href=\"javascript:history.back()\">Continue</a>&nbsp;&nbsp;<a href=\"login.html\" target=\"_parent\">Home</a>");
 	}
 %>

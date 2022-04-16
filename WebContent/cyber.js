@@ -23,16 +23,16 @@
  } }
  function getNavigate(urlnvg) {if(urlnvg.indexOf("javascript:")==-1) location=urlnvg;}
  it_park=new Array();
- it_park[0]=["Home","cyber.jsp"];
- it_park[1]=["About Us","aboutus.htm"]; 
- it_park[2]=["Signup New User","signup.jsp"]
+ it_park[0]=["Aarogyam","Aarogyam.html"];
+ it_park[1]=["About Us","Aboutus.html"]; 
+ it_park[2]=["Signup New User","ragistration.html"]
  it_park[3]=["Login","cyber.jsp"] 
  document.write("<div id=homing><table width=780 cellspacing=0 cellpadding=4 id=mozz><tr><Td align=center>");
  for(i=0;i<it_park.length;i++) 
- document.write("<a href='"+it_park[i][1]+"' onfocus=this.blur(); oonclick=getNavigate('"+it_park[i][1]+"');>"+it_park[i][0]+"</a>&nbsp;&nbsp;<font color=aliceblue>|</font>&nbsp;&nbsp;");
+ document.write("<a href='"+it_park[i][1]+"' onfocus=this.blur(); oonclick=getNavigate('"+it_park[i][1]+"');>"+it_park[i][0]+"</a>&nbsp;&nbsp;<font color=white>|</font>&nbsp;&nbsp;");
  document.write("<a href='logout.jsp'>Logout</a></td></tr></form></table></div>");
  var BLUE="lightsalmon";
- document.getElementById('mozz').style.cssText="font-family:tahoma;font-size:12px;background:"+BLUE+";color:aliceblue;filter:progid:DXImageTransform.Microsoft.Gradients(startcolorstr='#6699cc',endcolorstr='aliceblue',gradienttype='0');-moz-border-radius:20px;font-weight:bold"
+ document.getElementById('mozz').style.cssText="font-family:tahoma;font-size:20px;background:"+BLUE+";color:black;filter:progid:DXImageTransform.Microsoft.Gradients(startcolorstr='#6699cc',endcolorstr='black',gradienttype='0');-moz-border-radius:20px;font-weight:bold"
  var ieop=0;
  var op_id=0;
  var message="";
@@ -98,8 +98,8 @@ document.writeln(".skin0 {color:gray;position:absolute;width:165px;border-style:
 document.writeln(".menuitems{padding-left:15px;padding-right:2px;padding-top:2px;padding-bottom:2px;}");
 document.writeln("</style>");
 document.writeln('<div id="ie5menu" class="skin0" onMouseover="highlightie5(event)" onMouseout="lowlightie5(event)" onClick="jumptoie5(event)" display:none>');
-document.writeln('<div class="menuitems" url="index.html">Home Page</div>');
-document.writeln('<div class="menuitems" url="aboutus.htm">About us</div>');
+document.writeln('<div class="menuitems" url="Aarogyam.html">Home Page</div>');
+document.writeln('<div class="menuitems" url="Aboutus.html">About us</div>');
 document.writeln('<div class="menuitems" url="signup.jsp">New User</div>');
 
 document.write("</div>");

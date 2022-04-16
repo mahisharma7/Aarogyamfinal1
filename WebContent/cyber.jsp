@@ -25,28 +25,28 @@
 	</table>
 	<script src="cyber.js"></script>
 	<BR>
-	<TABLE ALIGN=CENTER BORDER=0 oncontextmenu="return false" cellspacing=0
+<%-- 	<TABLE ALIGN=CENTER BORDER=0 oncontextmenu="return false" cellspacing=0
 		cellpadding=0>
 		<form action="search_products.jsp">
-	
+	<br><br>
 			<TR>
 				<TD>Search Products To Buy&nbsp;:&nbsp;<input name=search>&nbsp;&nbsp;in
 					&nbsp;&nbsp;<select name=category>
-						<%-- <%
+						<%
 for(int i=0;i<v.size();i++)
 {
 %>%>
 <option><%=v.get(i)%></option>
 
-<% --%> } %>
+<% } %>
 
 				</select>&nbsp;&nbsp;
 					<button type=submit>Proceed</button>
 			</TR>
-		</form>
+		</form> --%>
 	</TABLE>
 	<fieldset>
-		<legend>Login</legend>
+		<legend><h2>Login</h2></legend>
 		<BR>
 		<table width=600 align=center>
 			<form method=get action="login.jsp">
@@ -54,12 +54,12 @@ for(int i=0;i<v.size();i++)
 					<TD colspan=3 nowrap id=expire></td>
 				</tr>
 				<tr>
-					<Td align=right>User Email:</td>
+					<Td align=right><h2>User Email:</h2></td>
 					<Td><input name=userid>
 					<td rowspan=4><img src="images.jpg" width=200 height=130
 						border=0>
 				<tr>
-					<Td align=right>Password:</td>
+					<Td align=right><h2>Password:</h2></td>
 					<Td><input name=password type=password></td>
 				</tR>
 				<tr>
@@ -75,9 +75,9 @@ for(int i=0;i<v.size();i++)
 						</button></td>
 				</tr>
 				<tr>
-					<td colspan=2 align=center><a href="forgot.jsp">Forgot
-							Password&nbsp;?</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="change.jsp">Change
-							Password</a></td>
+					<td colspan=2 align=center><a href="forgot.jsp"><h3>Forgot
+							Password&nbsp;?</h3></a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="change.jsp"><h3>Change
+							Password</h3></a></td>
 				</tr>
 			</form>
 		</table>

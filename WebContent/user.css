@@ -1,5 +1,5 @@
 body {
-  background-image:url("");
+  background-image:url("ayurveda-handwritten-lettering-healthy-lifestyle-modern-vector-hand-GBW765.jpg");
   background-position:center;
   background-size:cover;
   
@@ -27,7 +27,7 @@ body {
     border-width: 5px;
     color:white;
     box-shadow:0 1px 0 #cfcfcf;
-      opacity: 0.8;
+      opacity: 0.1;
 }
 .form-control{
     background:transparent!important;

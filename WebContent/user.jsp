@@ -8,7 +8,7 @@
 </head>
 <body>
 <jsp:include page="user_transactions.jsp" />
-<TABLE  cellSpacing=3 cellPadding=3 width=400 align="left" border=0 >
+<TABLE  cellSpacing=3 cellPadding=3 width=300 align="left" border=0 >
 
 <TBODY>
 <TR>
