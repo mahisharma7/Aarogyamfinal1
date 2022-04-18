@@ -9,7 +9,7 @@
 <meta http-equiv="page-enter" content="blendTrans(duration=1)">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="expires" content="0">
-<link class="catg" href="user.css" rel="stylesheet">
+<link class="catg" href="./CSS/cyber.css" rel="stylesheet">
 <title>Online Medical Booking Store</title>
 </head>
 <body><jsp:include page="user_transactions.jsp" />
@@ -51,7 +51,7 @@
 			response.sendRedirect("addcart.jsp");
 		} catch (Exception e) {
 			String msgs = " ";
-			out.println("---" + e);
+			System.out.println("---" + e);
 			msgs = (e.getMessage().toLowerCase().indexOf("unique") != -1)
 					? "Item u Specified is Already Existed.<br><BR> Please Choose Another item"
 					: (e.getMessage().toLowerCase().indexOf("format") != -1)

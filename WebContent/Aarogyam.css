@@ -3,7 +3,8 @@
 }
 header{
     width:100%; height:200vh;
-    background-image:linear-gradient(rgba(10,15,50,0),rgba(10,12,0,0.3)), url("1611123969.jpg");
+
+    background-image:linear-gradient(rgba(10,15,50,0),rgba(10,12,0,0.3)), url("1611123969.jpg"); 
      background-repeat: no-repeat;
      background-size: cover;
 

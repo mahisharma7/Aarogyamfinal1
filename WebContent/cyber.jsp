@@ -45,19 +45,19 @@ for(int i=0;i<v.size();i++)
 			</TR>
 		</form> --%>
 	</TABLE>
-	<fieldset>
-		<legend><h2>Login</h2></legend>
+	<fieldset><center>
+		<legend><h2><centre>Login</centre></h2></legend></center>
 		<BR>
-		<table width=600 align=center>
+		<table width=300 align=center>
 			<form method=get action="login.jsp">
 				<TR>
 					<TD colspan=3 nowrap id=expire></td>
 				</tr>
 				<tr>
-					<Td align=right><h2>User Email:</h2></td>
+					<Td align=right><h2>UserEmail:</h2></td>
 					<Td><input name=userid>
-					<td rowspan=4><img src="images.jpg" width=200 height=130
-						border=0>
+					<td rowspan=4> 
+						
 				<tr>
 					<Td align=right><h2>Password:</h2></td>
 					<Td><input name=password type=password></td>
@@ -85,12 +85,12 @@ for(int i=0;i<v.size();i++)
 	</fieldset>
 	<BR>
 	<BR>
-	<li><b>Welcome to the Online Medical Booking Store.<b />
+	<center><li><b>Welcome to the Online Medical Booking Store.<b />
 			<li>Here we pride ourselves in delivering medicines with prime
 				commitment and with an honest, open and trustworthy approach.
 		<li>We desire to achieve customer fulfillment and satisfaction
 				through their pleasant experience.
 		<li>Our motto is to serve and satisfy our customers to the utmost
-				by providing right medical aid when they need it most. <script>if(location.search.indexOf("invalid")!=-1) document.getElementById('expire').innerHTML="<font color=maroon>Invalid User Name and Password&nbsp;&nbsp;[&nbsp;or&nbsp;]&nbsp;&nbsp;Your Login Session May be Expired. Please Relogin</font>";</script>
+				by providing right medical aid when they need it most. <script>if(location.search.indexOf("invalid")!=-1) document.getElementById('expire').innerHTML="<font color=maroon>Invalid User Name and Password&nbsp;&nbsp;[&nbsp;or&nbsp;]&nbsp;&nbsp;Your Login Session May be Expired. Please Relogin</font>";</script></center>
 </body>
 </html>

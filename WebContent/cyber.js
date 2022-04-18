@@ -27,12 +27,12 @@
  it_park[1]=["About Us","Aboutus.html"]; 
  it_park[2]=["Signup New User","ragistration.html"]
  it_park[3]=["Login","cyber.jsp"] 
- document.write("<div id=homing><table width=780 cellspacing=0 cellpadding=4 id=mozz><tr><Td align=center>");
+ document.write("<div id=homing><table width=1900 cellspacing=10 cellpadding=4 id=mozz><tr><Td align=center>");
  for(i=0;i<it_park.length;i++) 
- document.write("<a href='"+it_park[i][1]+"' onfocus=this.blur(); oonclick=getNavigate('"+it_park[i][1]+"');>"+it_park[i][0]+"</a>&nbsp;&nbsp;<font color=white>|</font>&nbsp;&nbsp;");
+ document.write("<a href='"+it_park[i][1]+"' onfocus=this.blur(); oonclick=getNavigate('"+it_park[i][1]+"');>"+it_park[i][0]+"</a>&nbsp;&nbsp;<font color=black>|</font>&nbsp;&nbsp;");
  document.write("<a href='logout.jsp'>Logout</a></td></tr></form></table></div>");
  var BLUE="lightsalmon";
- document.getElementById('mozz').style.cssText="font-family:tahoma;font-size:20px;background:"+BLUE+";color:black;filter:progid:DXImageTransform.Microsoft.Gradients(startcolorstr='#6699cc',endcolorstr='black',gradienttype='0');-moz-border-radius:20px;font-weight:bold"
+ document.getElementById('mozz').style.cssText="font-family:tahoma;font-size:30px;background:"+BLUE+";color:black;filter:progid:DXImageTransform.Microsoft.Gradients(startcolorstr='#6699cc',endcolorstr='black',gradienttype='0');-moz-border-radius:30px;font-black:bold"
  var ieop=0;
  var op_id=0;
  var message="";

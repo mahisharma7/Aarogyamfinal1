@@ -9,7 +9,7 @@ h3 {
 #heading {filter:glow(strength=100,color=rgb(0, 0, 0));border-style:solid;border-color:green;border-width:1px;color:ivory;width:300px;background:teal}
 h1 {color:aliceblue;font-size:20px;border-style:solid;border-color:green;border-width:1px;color:ivory;background:cadetblue;padding:8px;}
 P,TD,TH,FORM,BODY {
-      Color:rgb(255, 128, 128);
+      Color:rgb(0, 0, 64);
       font-family:tahoma;
       font-weight:bold;
       font-size:12px;
